@@ -1,0 +1,10 @@
+.bg-container{
+    background-color: #575551;
+    padding: 30px;
+}
+
+.inner-container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px 30px 20px;
+}

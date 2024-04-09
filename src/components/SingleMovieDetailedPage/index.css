@@ -1,0 +1,44 @@
+.bg-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.background-image {
+    background-image: url('https://image.tmdb.org/t/p/w500/j3Z3XktmWB1VhsS8iXNcrR86PXi.jpg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.background-image h2 {
+    margin-bottom: 10px;
+}
+
+.background-image p {
+    margin-bottom: 5px;
+}
+
+.cast-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.actor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actor img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.actor h3 {
+    margin: 0;
+}
